@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { DisableButtonOnLoadDirective } from './disable-button-on-load.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DisableButtonOnLoadDirective
   ],
   imports: [
     BrowserModule,

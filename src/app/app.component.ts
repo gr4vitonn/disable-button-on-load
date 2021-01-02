@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'disable-button-on-load';
+  
+  showSection = false;
+
+  onToggleButtonClick(): void {
+    this.showSection = !this.showSection;
+  }
 }
